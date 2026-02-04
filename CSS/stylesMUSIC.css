@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-color: #D9D9D9;
+    width: 100%;
+    font-family: "Instrument Sans", sans-serif;
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(to right, #BA20E5, #67127f95, #BA20E5);
+    /*background-color: #EBEAE1;*/
+    height: 100%;
+    width: 100%;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 50px 10px 30px;
+    align-items: center;
+}
+
+nav a{
+    padding: 0 10px 0 20px;
+    font-weight: 330;
+}
+
+h1 {
+    font-family: "Ingrid Darling", regular;
+    font-weight: 400;
+    color: #67127F;
+    font-size: 55px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+main{
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 750px;
+}
+
+#opciones {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    width: 170px;
+    background: linear-gradient(to left, #BA20E5, #67127F);
+    border: 0;
+    color: #DDDDDD;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+#clasesBoton {
+    color: #C3E100;
+    font-weight: 600;
+    width: 200px;
+}
+
+h2 {
+    color: #78308D;
+}
+
+.clases2 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+main img{
+    width: 80%;
+    margin: 30px;
+}
+
+
+
+footer{
+/*    background-color: #EBEAE1;*/
+    height: 100%;
+    width: 100%;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin: 0 50px 0 50px;  
+}
+
+footer div a{
+    color: #67127F;
+}
