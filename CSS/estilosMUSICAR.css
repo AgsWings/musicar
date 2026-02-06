@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+header {
+    height: 70px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px 5px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    color: rgb(180, 85, 166);
+    margin-left: 20px; 
+    font-family: "Instrument Sans", sans-serif;
+}
+
+h2 {
+    color: rgb(191, 85, 10);
+    font-family: "Ingrid Darling", regular;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: "Instrument Sans", sans-serif; 
+    font-weight: 200;
+    margin-left: 20px;  
+    max-width: 400px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+span {
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Instrument Sans", sans-serif; 
+    color:black;
+    font-weight: 700px;
+    padding: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 5px solid rgb(227, 189, 221);
+    margin: 10px;
+    padding: 5px 20px 5px 30px;
+    background:rgb(227, 189, 221);
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
