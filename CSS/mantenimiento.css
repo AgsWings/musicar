@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap');
+
+body {
+    background-image: url(../Audiovisual/colores.png);
+}
+
+main {
+    width: 600px;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+main h2{
+    font-family: "Irish Grover", system-ui;
+    font-size: 20px;
+}
+
+main div{
+    padding: 10px;
+    margin: auto;
+    color:rgb(95, 34, 161);
+    margin: 40px;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+main a{
+    text-decoration: none;
+    color:rgb(95, 34, 161);
+    border: solid rgb(122, 75, 173);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(173, 145, 204, 0.489);
+}
+
+main p{
+    font-size: 22px;
+    font-weight: 400px;
+    color:rgb(212, 119, 13);
+}
